@@ -10,7 +10,7 @@ namespace ZeroMQ_Task_Ventilator
 {
    public class TaskSink
     {
-        public TaskSink(int portbind)
+       public TaskSink(int portbind = 5558)
         {
             //
             // Task sink
@@ -37,11 +37,11 @@ namespace ZeroMQ_Task_Ventilator
                 for (int i = 0; i < 100; ++i)
                 {
                     sink.ReceiveFrame();
-
-                    if ((i / 10) * 10 == i)
-                        Console.Write(":");
-                    else
-                        Console.Write(".");
+                    Console.Write("#");
+                    //if ((i / 10) * 10 == i)
+                    //    Console.Write(":");
+                    //else
+                    //    Console.Write(".");
                 }
 
                 // Calculate and report duration of batch
