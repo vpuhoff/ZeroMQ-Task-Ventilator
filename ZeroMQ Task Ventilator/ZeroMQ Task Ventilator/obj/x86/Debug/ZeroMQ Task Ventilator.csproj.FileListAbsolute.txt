@@ -1,0 +1,7 @@
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\obj\x86\Debug\ZeroMQ Task Ventilator.csprojResolveAssemblyReference.cache
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\bin\x86\Debug\ZeroMQ Task Ventilator.dll.config
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\bin\x86\Debug\ZeroMQ Task Ventilator.dll
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\bin\x86\Debug\ZeroMQ Task Ventilator.pdb
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\bin\x86\Debug\ZeroMQ.dll
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\obj\x86\Debug\ZeroMQ Task Ventilator.dll
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\ZeroMQ Task Ventilator\obj\x86\Debug\ZeroMQ Task Ventilator.pdb
