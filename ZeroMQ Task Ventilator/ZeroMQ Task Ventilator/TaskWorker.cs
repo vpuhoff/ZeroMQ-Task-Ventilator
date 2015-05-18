@@ -10,7 +10,7 @@ namespace ZeroMQ_Task_Ventilator
 {
     public class TaskWorker
     {
-        public TaskWorker(string SenderIP = "127.0.0.1", int SenderPort = 5557, string sinkIP = "127.0.0.1", int sinkPort=5558)
+        public TaskWorker(string workerid="*",string SenderIP = "127.0.0.1", int SenderPort = 5557, string sinkIP = "127.0.0.1", int sinkPort=5558)
         {
             //
             // Task worker
@@ -30,8 +30,7 @@ namespace ZeroMQ_Task_Ventilator
             {
                 receiver.Connect(String.Format ("tcp://{0}:{1}",SenderIP,SenderPort));
                 sink.Connect(string.Format("tcp://{0}:{1}",sinkIP,sinkPort ));
-                Console.WriteLine("Worker connected to sender " + SenderIP + ":" + SenderPort);
-                Console.WriteLine("Worker connected to sink " + sinkIP + ":" + sinkPort);
+                Console.WriteLine("Worker " + workerid + " ready.");
                 // Process tasks forever
                 while (true)
                 {

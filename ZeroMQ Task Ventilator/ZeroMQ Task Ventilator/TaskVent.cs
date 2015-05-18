@@ -25,7 +25,7 @@ namespace ZeroMQ_Task_Ventilator
             using (var sender = new ZSocket(context, ZSocketType.PUSH))
             using (var sink = new ZSocket(context, ZSocketType.PUSH))
             {
-                sender.Bind("tcp://*:"+SenderPort.ToString);
+                sender.Bind("tcp://*:"+SenderPort.ToString());
                 sink.Connect(String.Format("tcp://{0}:{1}",sinkIP,sinkPort));
 
                 Console.WriteLine("Press ENTER when the workers are ready…");
@@ -44,11 +44,11 @@ namespace ZeroMQ_Task_Ventilator
                 for (; i < 100; ++i)
                 {
                     // Random workload from 1 to 100msecs
-                    int workload = rnd.Next(100) + 1;
+                    int workload = 1000;
                     total_msec += workload;
                     byte[] action = BitConverter.GetBytes(workload);
 
-                    Console.WriteLine("{0}", workload);
+                    Console.WriteLine("*{0}* ", workload);
                     sender.Send(action, 0, action.Length);
                 }
 

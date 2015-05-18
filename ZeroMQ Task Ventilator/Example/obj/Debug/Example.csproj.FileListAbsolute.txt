@@ -1,0 +1,9 @@
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\Example\bin\Debug\Example.exe.config
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\BIN\Example.exe.config
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\BIN\Example.exe
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\BIN\Example.pdb
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\Example\obj\Debug\Example.exe
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\Example\obj\Debug\Example.pdb
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\BIN\i386\libsodium.dll
+D:\Разработки\ZeroMQ-Task-Ventilator\ZeroMQ Task Ventilator\BIN\i386\libzmq.dll
